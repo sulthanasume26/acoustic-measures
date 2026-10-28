@@ -33,7 +33,7 @@ python measure_segments.py DATA_FOLDER OUTPUT.csv --tier 1 --max-formant 5000
 Example with the included synthetic test file:
 
 ```
-python measure_segments.py sample_data sample_output.csv
+python measure_segments.py my_data results.csv --max-formant 5000
 ```
 
 ## Method
@@ -42,8 +42,7 @@ Measurements use Praat's algorithms through [Parselmouth](https://parselmouth.re
 
 ## Data
 
-The field recordings from my thesis are not included, to protect speakers' privacy. `sample_data/` contains only a synthetic test signal.
-
+The `my_data/` folder contains the field recordings and TextGrids from my MA thesis on sonorants in Bangla and Bishnupriya Manipuri. The speakers agreed that their recordings may be used for research by anyone. Speakers are identified only by codes (S01, S02 …). `thesis_results.csv` contains the measurements produced by the script from this data. If you use the data, please cite this repository.
 ## Author
 
 Sulthana Sume, MA in Linguistics, University of Dhaka
