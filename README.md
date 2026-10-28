@@ -43,6 +43,9 @@ Measurements use Praat's algorithms through [Parselmouth](https://parselmouth.re
 ## Data
 
 The `my_data/` folder contains the field recordings and TextGrids from my MA thesis on sonorants in Bangla and Bishnupriya Manipuri. The speakers agreed that their recordings may be used for research by anyone. Speakers are identified only by codes (S01, S02 …). `thesis_results.csv` contains the measurements produced by the script from this data. If you use the data, please cite this repository.
+
+The data in `my_data/` and `thesis_results.csv` is shared under the Creative Commons Attribution 4.0 licence (CC BY 4.0): anyone may use it for any purpose, provided they credit the author.
+
 ## Author
 
 Sulthana Sume, MA in Linguistics, University of Dhaka
